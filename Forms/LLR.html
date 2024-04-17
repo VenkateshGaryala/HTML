@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Form</title>
+</head>
+<body>
+    <form action="main.py">
+        <center><h1><u>LLR Registration Form</u></h1></center>
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age"><br><br>
+        <label for="DOB">Date Of Birth:</label>
+        <input type="date" name="date" id="DOB"><br><br>
+        <label for="em">Email:</label>
+        <input type="email" name="email" id="em"><br>
+        <p>Gender:</p>
+        <input type="radio" name="gen" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gen" id="female">
+        <label for="female">Female</label><br><br>
+        <p>Types of Vehicles:</p>
+        <input type="checkbox" name="vehicles" id="veh1">
+        <label for="veh1">Two Wheeler</label>
+        <input type="checkbox" name="vehicles" id="veh2">
+        <label for="veh2">Four Wheeler</label> Wheeler</label><br><br>
+        <label for="veh">Vehicles:</label>
+        <select name="vehicles" id="veh">
+            <optgroup label="Two Wheelers">
+                <option value="ktm">KTM</option>
+                <option value="mt15">MT15</option>
+                <option value="him">Himalayan</option>
+                <option value="re">Royal Enfield</option>
+                <option value="pulsur">Pulsur</option>
+                <option value="uni">Unicorn</option>
+            </optgroup>
+            
+           <optgroup label="Four Wheelers">
+                <option value="thar">Thar</option>
+                <option value="benz">Benz</options> <options value="bmw">BMW</option>
+                <option value="rr">Rolls Royce</option>
+            </optgroup>
+        </select><br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
