@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: red;
+    display:none;
+
+}
+.side{
+    display: inline-block;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+

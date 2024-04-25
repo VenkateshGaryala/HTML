@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    height:20px;
+    width:300px;
+    background-color:blue;
+    color:white;
+    text-align: center;
+    margin-left: 450px;
+}
+.APJ{
+    height: 400px;
+    background-color: blue;
+    padding:50px 400px;
+    background-image: linear-gradient(to bottom right, orange,white,green)
+}

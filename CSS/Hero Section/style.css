@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin: 0px 50px;
+    color: white;
+    
+}
+.side{
+    display: inline-block;
+}
+li{
+    display: inline;
+    
+}
+.side1{
+    background-color: #555;
+
+}
+img{
+    margin-right: 100px;
+}
+.banner{
+    margin-top: 20px;
+}
+.box{
+    float: left;
+    width: 50%;
+    height: 350px;
+    padding: 50px;
+    background-color: rgb(184, 171, 171);
+}
+.box img{
+    border-radius: 50%;
+}
